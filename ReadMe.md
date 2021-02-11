@@ -92,7 +92,7 @@ Response:
 }
 ```
 ### 2. GET member specific Log
-We can get meber specific log by using member id from the data base for example purpose we used the default database ID which can be replace by any regular expressin for production purpose.
+We can get meber specific log by using member id from the data base for example purpose we used the default database ID which can be replace by any regular expression for production purpose.
 
 ### Member IDs
 ----
@@ -146,7 +146,7 @@ The user must not expect CORS headers configuration as the sufficient informatio
 
 The Member ID can be later changed to a regular expression if needed but for purpose of demonstration I have used default primary key for tables.
 
-I have never done documentation but learning is what I always prefer this task showed me that documentatin is a very import part.
+I have never done documentation but learning is what I always prefer this task showed me that documentatin is a very important part.
 
 ## Message For the Evaluator.
 -----------------------------------
