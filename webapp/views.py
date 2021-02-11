@@ -8,8 +8,8 @@ from rest_framework.response import Response
 def home(request):
     api_urls = {
         'List': '/activity-logs/',
-        'Member Activity Log': '/member-activity/<str:pk>/',
-        'Delete Activity Log': '/log-delete/<str:pk>/',
+        'Member Activity Log': '/member-activity/<int:pk>/',
+        'Delete Activity Log': '/log-delete/<int:pk>/',
     }
     return Response(api_urls)
 
