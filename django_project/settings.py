@@ -15,7 +15,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True if os.environ.get("DEBUG") == "True" else False
 
-ALLOWED_HOSTS = ['taskbyfth.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['fthtaskdrf.herokuapp.com/', '127.0.0.1']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
